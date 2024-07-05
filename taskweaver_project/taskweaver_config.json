@@ -1,0 +1,16 @@
+{
+    "llm.api_base": "http://localhost:11434",
+    "llm.api_key": "ARBITRARY_STRING",
+    "llm.api_type": "ollama",
+    "llm.model": "gemma2-low-temp:latest",
+    "execution_service.kernel_mode": "local",
+    "ext_llms.llm_configs": {
+            "codegen": {
+                    "llm.api_base": "http://127.0.0.1:11434",
+                    "llm.api_type": "ollama",
+                    "llm.api_key": "0",
+                    "llm.model": "deepseek-coder-v2-low-temp:latest"
+            }
+    },
+    "code_generator.llm_alias": "codegen"
+}
